@@ -1,0 +1,13 @@
+---
+name: HTML-Prototype-Useful
+version: 0.01
+author: ~
+abstract: Some useful additions for the Prototype library.
+license: perl
+requires:
+  HTML::Prototype: 1.23
+provides:
+  HTML::Prototype::Useful:
+    file: lib/HTML/Prototype/Useful.pm
+    version: 0.01
+generated_by: Module::Build version 0.26
