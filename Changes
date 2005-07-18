@@ -1,6 +1,8 @@
 Revision history for Perl extension HTML::Prototype::Useful
 
+0.02  2005-06-18 09:31:00
+        - Added missing files to MANIFEST.
+0.01  2005-06-17 17:30:00 
         - Added a smart observer.
         - Updated documentation.
-0.01  2005-06-08 12:00:00 
         - original version.

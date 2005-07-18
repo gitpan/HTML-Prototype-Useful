@@ -5,7 +5,7 @@ use strict;
 use base 'HTML::Prototype';
 use HTML::Prototype::Useful::Js;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our $prototype_useful = do { package HTML::Prototype::Useful::Js; local $/; <DATA> };
 
 =head1 NAME
