@@ -5,7 +5,7 @@ use strict;
 use base 'HTML::Prototype';
 use HTML::Prototype::Useful::Js;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 our $prototype_useful = do { package HTML::Prototype::Useful::Js; local $/; <DATA> };
 
 =head1 NAME
@@ -64,7 +64,7 @@ changes after a user has stopped typing for C<frequency>.
 
 =cut
 
-sub observe_field {
+sub lazy_observe_field {
     my ( $self, $id, $options ) = @_;
     HTML::Prototype::_build_observer( 'Form.Element.SmartObserver', 
         $id, $options );

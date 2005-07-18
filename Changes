@@ -1,5 +1,7 @@
 Revision history for Perl extension HTML::Prototype::Useful
 
+0.03  2005-06-19 00:06:00
+        - Fixed method name.
 0.02  2005-06-18 09:31:00
         - Added missing files to MANIFEST.
 0.01  2005-06-17 17:30:00 
