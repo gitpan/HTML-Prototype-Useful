@@ -6,7 +6,7 @@ my $build = Module::Build->new(
     license            => 'perl',
     module_name        => 'HTML::Prototype::Useful',
     requires           => {
-     'HTML::Prototype' => 1.32
+     'HTML::Prototype' => 1.45
     },
     create_makefile_pl => 'passthrough',
     create_readme      => 1,

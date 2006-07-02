@@ -1,5 +1,7 @@
 Revision history for Perl extension HTML::Prototype::Useful
 
+0.05  2006-07-02 08:15:00
+	- Update to how recent HTML::Prototype works. 
 0.04  2005-07-28 16:23:00
         - Fixed to handle new format for _build_observer.
 0.03  2005-06-19 00:06:00

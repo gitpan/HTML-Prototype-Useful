@@ -5,7 +5,7 @@ use strict;
 use base 'HTML::Prototype';
 use HTML::Prototype::Useful::Js;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 our $prototype_useful = do { package HTML::Prototype::Useful::Js; local $/; <DATA> };
 
 =head1 NAME
@@ -81,7 +81,7 @@ Takes the same arguments as observe_field.
 
 sub observe_hover {
     my ( $self, $id, $options ) = @_;
-    HTML::Prototype::_build_observer( 'Element.HoverObserver', $id, $options );
+    HTML::Prototype->_build_observer( 'Element.HoverObserver', $id, $options );
 }
 
 =back
